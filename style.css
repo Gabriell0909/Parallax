@@ -5,13 +5,6 @@
   --corBotao: #094b65;
 }
 
-* {@import url("https://fonts.googleleapis.com/css?family=Popins:300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleleapis.com/css2?family=Rancho&display:300,400,500,600,700,800,900&display=swap");
-
-:root {
-  --corBotao: #094b65;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -296,6 +289,7 @@ a {
 @media only screen and (max-width: 600px) {
   body {
     width: 100vw;
+    position: absolute;
   }
   .container {
     flex-wrap: nowrap;
